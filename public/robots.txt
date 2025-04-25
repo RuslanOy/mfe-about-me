@@ -3,4 +3,4 @@ Allow: /
 Disallow: /node_modules/
 Disallow: /dist/
 Disallow: /.git/
-Sitemap: https://ruslanoy.github.io/mfe-about-me/sitemap.xml
+Sitemap: https://mfe-about-me.vercel.app/sitemap.xml
