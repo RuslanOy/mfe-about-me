@@ -1,0 +1,57 @@
+{
+  "name": "Ruslan Oyun",
+  "shortAboutMe": "Frontend developer with experience in building enterprise and client applications on React. Participated in platform development for the country`s largest bank and worked on a highly loaded application with an audience of 1,000,000 visitors.",
+  "experience": "Experience",
+  "downloadCV": "Download CV",
+  "jobExperience": [
+    {
+      "value": "a",
+      "company": "Sber",
+      "title": "I was engaged in the development of 2 projects for the country`s largest bank - SBER:",
+      "description": [
+        "An application for comprehensive sales analytics across all Sberbank`s partner channels (SberZvuk, Samokat, CityMobil, CityDrive, etc.), allowing top managers to identify bottlenecks, optimize processes and drive revenue growth.",
+        "A platform for centralized information management across Sber`s branch network across Russia, covering all levels - from branch schedules to management and employee data."
+      ],
+      "simpleText": "Worked in teams of 9 and 13 people, using the SberGile methodology (analog of Scrum), with a Scrum master;",
+      "responsibilities": {
+        "text": "Accomplishments and Responsibilities:",
+        "responsibilitiesArray": [
+          "Developed and integrated a Gigachat-based intelligent assistant (AI) widget that, based on user text queries, analyzed branch data and generated reporting and statistics on sales, revenue, and KPIs. As a result, was able to speed up the collection and retrieval of analytics reports by ~70%;",
+          "Developed a new sales analytics dashboard for business managers, with multiple charts on react-chart-js (candlestick, line, pie), numeric widgets and tables on TanStack Table, which allowed management to evaluate revenue dynamics and channel performance;",
+          "Implemented from scratch a section for assigning tasks to managers on react-hook-form, including tables with data on available employees, filters by branches, as well as developed a form of task creation with selection of responsible person and deadline, which allowed to centralize task assignment and track their implementation in real time;",
+          "Developed a personal account with the implementation of a complex role model (5+ roles) on React.js, including separate access to data, editing rights and metrics by branches - this provided secure work with confidential information at the level of top management, analysts and heads of departments;",
+          "Developed versatile table builders, with the ability to add/remove columns and react-hook-form & Yup, to configure data display in tables and charts. This allowed the business the flexibility to customize data visualization for specific scenarios;",
+          "Performed design and development of our UI-Kit on React and Storybook (adding new components, improving existing ones) and covered the code with unit tests on Jest and React-testing-library, ensuring stability of new features;",
+          "Conducted onboarding of new developer, explained project architecture, team processes. And also handled releases of new versions of the application, building release branches and doing builds in Jenkins;",
+          "On his own initiative as part of the retro, proposed to optimize the process of daily meetings, suggesting to exclude discussion of personal tasks, which reduced the length of daily meetings from ~45 to 20-25 minutes, while maintaining focus on the key issues of the team;"
+        ]
+      },
+      "stack": "Stack: React, TypeScript, Redux, Redux-toolkit, Jest, react-testing-library, JavaScript ES6, react-hook-form, CI/CD, Webpack, WebSockets, SCSS, Git, Gitlab, AntDesign, Styled-components, Storybook, CSS3, HTML5"
+    },
+    {
+      "value": "b",
+      "company": "Analytics Insight",
+      "title": "I was engaged in the development of 2 projects",
+      "description": [
+        "Developed an international highly loaded artificial intelligence (AI)-based platform for text and image processing and generation. The service has over 10 million monthly users and serves 100,000 thousand visitors daily;",
+        "Web3 application for trading this company`s cryptocurrency/tokens in the AI industry;"
+      ],
+      "responsibilities": {
+        "text": "Accomplishments and Responsibilities:",
+        "responsibilitiesArray": [
+          "Implemented the main chat based on artificial intelligence, integrating an API for working with AI and implementing the functionality of generating personalized responses/texts/images in real time. This became a key feature of the service, which was used by hundreds of thousands of people as a result;",
+          "Integrated cryptocurrency wallet connectivity based on Ethereum.js and developed transaction processing functionality including token purchases, balance checking and payment status display in React.js, allowing users to make purchases in a Web3 environment and opening a new source of monetization for the service;",
+          "Implemented Feature-Sliced Design (FSD) architecture by separating business logic, shared components, and feature layers, which improved project scalability and unified the project`s code base during development;",
+          "Developed interactive banner ads with animations in CSS and React.js, also implemented a system to collect metrics on their views, clicks and conversions by implementing A/B testing of the effectiveness of the business advertising hypotheses;",
+          "Improved the platform`s SEO performance by adding dynamic meta tag and description management via Next.js, as well as implementing adaptive and semantic layout, which had a positive impact on the site`s visibility in search engines and increased traffic by ~4%;",
+          "Integrated multilingual support with react-i18next, ensuring that the interface displays correctly for users from different regions (Polish, French, English), thus expanding the international audience;",
+          "I migrated the project from JavaScript to TypeScript, introducing typing for all modules and universal components, which made it possible to detect errors at the development stage and simplified project maintenance as the functionality grew;",
+          "Worked with the team to take out generic components and developed our own UI-kit as an npm package in React and TypeScript, which led to standardization of interface design and sped up the development process;",
+          "Conducted code reviews, evaluated tasks, and worked closely with backend developers to integrate RestAPI and with designers to coordinate Figma layouts;"
+        ]
+      },
+      "stack":
+        "Стек: Next.js, React, TypeScript, Redux, Redux-toolkit, Webpack, Jest, react-testing-library, JavaScript, react-hook-form, CI/CD, CSS3, HTML5, Git, Tailwind CSS, FSD"
+    }
+  ]
+}
