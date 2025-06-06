@@ -19,12 +19,12 @@ export const DownloadCV = (): React.ReactElement => {
             <Menu.Content>
               <Flex direction="row" gap="1.5">
                 <Button asChild>
-                  <Link href="/assets/files/RuslanOyunRuCV.pdf" download>
+                  <Link href="/assets/files/Ruslan_Oyun_RU_CV.pdf" download>
                     RU
                   </Link>
                 </Button>
                 <Button asChild>
-                  <Link href="/assets/files/RuslanOyunRuCV.pdf" download>
+                  <Link href="/assets/files/Ruslan_Oyun_EN_CV.pdf" download>
                     ENG
                   </Link>
                 </Button>

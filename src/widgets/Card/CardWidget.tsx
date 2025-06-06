@@ -33,7 +33,7 @@ export const CardWidget = (): React.ReactElement => {
         </Card.Body>
         <Card.Footer>
           <Link
-            href="https://t.me/rayaoiun"
+            href="https://t.me/ruslanoyun"
             variant="underline"
             target="_blank"
             rel="noopener noreferrer"
