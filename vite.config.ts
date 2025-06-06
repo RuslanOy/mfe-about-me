@@ -30,7 +30,7 @@ export default defineConfig({
         './AboutMe': './src/app/App.tsx',
       },
       shared: ['react', 'react-dom', '@chakra-ui/react', 'react-i18next', 'i18next'],
-    })
+    }),
   ],
   build: {
     modulePreload: false,
@@ -38,5 +38,7 @@ export default defineConfig({
     minify: false,
     cssCodeSplit: false,
     chunkSizeWarningLimit: 1000,
+    assetsInlineLimit: 0,
   },
+  assetsInclude: ['**/*.pdf'],
 });
