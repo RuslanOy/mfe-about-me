@@ -39,6 +39,11 @@ export default defineConfig({
     cssCodeSplit: false,
     chunkSizeWarningLimit: 1000,
     assetsInlineLimit: 0,
+    rollupOptions: {
+      output: {
+        assetFileNames: 'assets/[name][extname]',
+      },
+    },
   },
   assetsInclude: ['**/*.pdf'],
 });
