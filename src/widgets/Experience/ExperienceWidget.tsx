@@ -1,5 +1,5 @@
 import React from 'react';
-import { Accordion, Heading, List, Skeleton } from '@chakra-ui/react';
+import { Accordion, Heading, List, Skeleton, Text } from '@chakra-ui/react';
 import { LuCircleCheck } from 'react-icons/lu';
 import { useTranslation } from 'react-i18next';
 import { JobExperience } from './config';
@@ -34,16 +34,21 @@ export const ExperienceWidget = (): React.ReactElement => {
             <LuCircleCheck />
             <Heading as="h3">{item.company}</Heading>
             <Accordion.ItemIndicator />
+            <Text textStyle="xs" color="fg.muted">
+              {item.value === 'a' && t('currentJob')}
+            </Text>
           </Accordion.ItemTrigger>
           <Accordion.ItemContent>
             <Accordion.ItemBody>{item.title}</Accordion.ItemBody>
-            <Accordion.ItemBody>
-              {item.description.map((el, index) => (
-                <List.Root as="ul" key={index}>
-                  <List.Item>{el}</List.Item>
-                </List.Root>
-              ))}
-            </Accordion.ItemBody>
+            {item.description.length > 0 && (
+              <Accordion.ItemBody>
+                {item.description.map((el, index) => (
+                  <List.Root as="ul" key={index}>
+                    <List.Item>{el}</List.Item>
+                  </List.Root>
+                ))}
+              </Accordion.ItemBody>
+            )}
             <Accordion.ItemBody>{item.responsibilities.text}</Accordion.ItemBody>
             <Accordion.ItemBody>
               {item.responsibilities.responsibilitiesArray.map((el, index) => (
