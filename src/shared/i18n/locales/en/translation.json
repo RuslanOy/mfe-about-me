@@ -7,41 +7,6 @@
   "jobExperience": [
     {
       "value": "a",
-      "company": "Intent",
-      "title": "I am involved in a project to digitalize document flow in the construction industry. The main goal of the project is to convert paper-based processes into electronic format with legally significant signatures.",
-      "description": [],
-      "simpleText": "",
-      "responsibilities": {
-        "text": "Accomplishments and Responsibilities:",
-        "responsibilitiesArray": [
-          "Implemented functionality of signing documents using machine-readable power of attorney (POA), including validation and other checks;",
-          "Worked with XML format, implemented data generation and sending to backend for further processing and signing of documents;",
-          "Participated in the process of migration from legacy application to new platform, providing seamless migration of key modules and logic without interruption of user;"
-        ]
-      },
-      "stack": "Stack: React, TypeScript, Redux, Redux-toolkit, JavaScript ES6, react-hook-form, CI/CD, Vite, WebSockets, SCSS, Git, Gitlab, AntDesign, CSS3, HTML5"
-    },
-    {
-      "value": "b",
-      "company": "Kodix",
-      "title": "Participated in the development of a web solution for the Solaris brand (AGR) within an outsourcing company for the automotive industry. Worked on two main projects:",
-      "description": [
-        "Website Builder - an application that allows clients to create custom websites based on off-the-shelf components.",
-        "UI-Kit (Storybook) - a library of overused components that utilizes modern UI approaches."
-      ],
-      "simpleText": "",
-      "responsibilities": {
-        "text": "Accomplishments and Responsibilities:",
-        "responsibilitiesArray": [
-          "Actively participated in the final phase of the project, dealing with bugs of various criticality (from incorrect texts to failures in the logic of components);",
-          "Worked with React-based components, made edits to the UI and adaptive layout, corresponding to the design systems;",
-          "Developed new UI components for the website of the constructor;"
-        ]
-      },
-      "stack": "Stack: React, TypeScript, Redux, Redux-toolkit, JavaScript ES6, react-hook-form, CI/CD, Webpack, SCSS, Git, Gitlab, Styled-components, Storybook, CSS3, HTML5"
-    },
-    {
-      "value": "c",
       "company": "Sber",
       "title": "I was engaged in the development of 2 projects for the country`s largest bank - SBER:",
       "description": [
@@ -65,7 +30,7 @@
       "stack": "Stack: React, TypeScript, Redux, Redux-toolkit, Jest, react-testing-library, JavaScript ES6, react-hook-form, CI/CD, Webpack, WebSockets, SCSS, Git, Gitlab, AntDesign, Styled-components, Storybook, CSS3, HTML5"
     },
     {
-      "value": "d",
+      "value": "b",
       "company": "Analytics Insight",
       "title": "I was engaged in the development of 2 projects",
       "description": [
