@@ -23,25 +23,6 @@
     },
     {
       "value": "b",
-      "company": "Kodix",
-      "title": "Участвовал в разработке веб-решения для бренда Solaris (AGR) в рамках компании-аутсорсера для автопрома. Работал над двумя основными проектами:",
-      "description": [
-        "Конструктор сайтов – приложение, позволяющее клиентам создавать кастомные сайты на базе готовых компонентов.",
-        "UI-Kit (Storybook) – библиотека переиспользуемых компонентов, использующая современные UI-подходы."
-      ],
-      "simpleText": "",
-      "responsibilities": {
-        "text": "Достижения и обязанности:",
-        "responsibilitiesArray": [
-          "Активно участвовал в завершающей фазе проекта, занимаясь устранением багов различной критичности (от некорректных текстов до сбоев в логике работы компонентов);",
-          "Работал с компонентами на базе React, вносил правки в UI и адаптивную верстку, соответствующую систем дизайну;",
-          "Разрабатывал новые UI компоненты для сайта конструктора;"
-        ]
-      },
-      "stack": "Stack: React, TypeScript, Redux, Redux-toolkit, JavaScript ES6, react-hook-form, CI/CD, Webpack, SCSS, Git, Gitlab, Styled-components, Storybook, CSS3, HTML5"
-    },
-    {
-      "value": "c",
       "company": "Сбер",
       "title": "Я занимался разработкой 2 проектов для крупнейшего банка страны — Сбера:",
       "description": [
@@ -65,7 +46,7 @@
       "stack": "Стек: React, TypeScript, Redux, Redux-toolkit, Jest, react-testing-library, JavaScript ES6, react-hook-form, CI/CD, Webpack, WebSockets, SCSS, Git, Gitlab, AntDesign, Styled-components, Storybook, CSS3, HTML5"
     },
     {
-      "value": "d",
+      "value": "c",
       "company": "Analytics Insight",
       "title": "Я занимался разработкой 2 проектов",
       "description": [
